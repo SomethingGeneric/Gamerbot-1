@@ -1,0 +1,77 @@
+# This is a comment!
+# Note: In the code, if the data type is not supported,
+# you'll have to deal yourself
+
+# General bot stuff
+# Types: watching, listening
+DEFAULT_STATUS_TYPE:watching
+# These are currently the only substitutions
+DEFAULT_STATUS_TEXT:{number_users} gamers gaming
+# Any default cogs you don't want to load:
+# Example: UNLOAD_COGS:Internet,Speak
+UNLOAD_COGS:
+
+# NEED TO CHANGE
+FROM_EMAIL:mcompton2002@gmail.com
+TO_EMAIL:3019745990@vtext.com
+# Password is defined in 'emailpass.txt'
+
+# NEED TO CHANGE
+# Paste service stuff
+# The user running the bot needs write acces to below path (for saving pastes)
+PASTE_BASE:/Files/xhec/paste/
+# Replace :// with // (vvvv)
+PASTE_URL_BASE:https//xhec.us/paste/
+
+# Text for messages:
+# Note {command} is the only substitution allowed here
+WRONG_PERMS:You're not a special snowflake, so you can't run `{command}`
+# {username} is the only one here
+NEW_MEMBER:Welcome, {username}
+# and {channel} is the only one here
+INTRO_CHANNEL:You should go to {channel}, since it's your first time here.
+# No substitution here.
+# LISTS are split on quote
+IMAGE_RESPONSES:Cool meme bro.,Nice meme.,LMAO a nice one.
+DO_IMAGE_RESPONSES:True
+# 1/x times the bot will respond to image
+IMAGE_RESPONSE_PROB:15
+
+# Stock API
+FINNHUB_KEY:c0c573v48v6u6kubce80
+
+# Weather API
+WS_KEY:f35006ff9cb12a5d660572cb4791508f
+
+# NEED TO CHANGE (unless also on Ubuntu)
+# Music Stuff
+OPUS_FN:/usr/lib/x86_64-linux-gnu/libopus.so
+
+# Google Maps
+# (for tracemap)
+MAPS_KEY:AIzaSyD4VzGxnlYLa0OTOxcHefmzjvDU0e-Kacg
+
+# Monitor Data
+MONITOR_CHANNEL:403356796405678092
+
+# NEED TO CHANGE
+# (or at least review)
+# Can any user acces shell thru the bot?
+BASH_ANY:false
+
+
+
+
+# ---------------------
+# How to change these settings:
+# Enable developer mode in discord, and right click a user/channel to get it's ID for the relevant sections
+# --------------------
+
+# NEED TO CHANGE
+# Permissions
+# Who gets sent messages abt swearing and can run privileged commands
+MOD_IDS:117445905572954121
+# Who gets all log messages, and run extra-privileged commands
+OWNER:117445905572954121
+# Should the owner get a DM when the bot restarts
+OWNER_DM_RESTART:False

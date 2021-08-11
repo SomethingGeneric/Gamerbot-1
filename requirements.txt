@@ -1,0 +1,10 @@
+discord.py[voice]
+discord-pretty-help
+PyNaCl==1.4.0
+async-timeout==3.0.1
+asyncio==3.4.3
+pillow
+better-profanity
+requests
+youtube_dl
+gmplot
