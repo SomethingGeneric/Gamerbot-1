@@ -1,3 +1,17 @@
+# Gamerbot is now Gamerbot2, and lives here: https://git.tar.black/matt/Gamerbot2
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------
 # Gamerbot
 Discord bot with many functions
 (It's a hot mess around here but it works)
