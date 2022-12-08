@@ -1,4 +1,4 @@
-# Gamerbot is now Gamerbot2, and lives here: https://git.tar.black/matt/Gamerbot2
+# Gamerbot is now Gamerbot2, and lives here: https://github.com/SomethingGeneric/Gamerbot
 
 
 
