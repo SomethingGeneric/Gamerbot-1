@@ -70,3 +70,7 @@ The update function from git will not work unless you properly clone the repo an
         * `sudo systemctl daemon-reload && sudo systemctl enable --now <some_fn>`
         * If you ever have issues, `sudo systemctl status <some_fn>`
         
+
+
+# This project has moved:
+[GitLab Repository](https://gitlab.mattcompton.dev/matt/Gamerbot-1)
